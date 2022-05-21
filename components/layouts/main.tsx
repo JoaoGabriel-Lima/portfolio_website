@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { Router } from "next/router";
 import React from "react";
 import MyRoomLoader from "../model/room-loader";
 import Footer from "../page/footer";
@@ -12,9 +13,10 @@ const LazyRoom = dynamic(() => import("../model/modelLoader"), {
 
 interface MainLayoutProps {
   children: React.ReactNode;
+  router: Router;
 }
 
-const Main = ({ children }: MainLayoutProps) => {
+const Main = ({ children, router }: MainLayoutProps) => {
   return (
     <section>
       <Head>
@@ -34,7 +36,7 @@ const Main = ({ children }: MainLayoutProps) => {
         <title>João Lima - Homepage</title>
       </Head>
       <main className="transition-colors duration-300 w-full px-8 pb-8 max-w-full h-auto min-h-screen dark:text-white/[.92]  bg-[#f0e7db] dark:bg-[#202023] flex items-center flex-col ">
-        <Navbar />
+        <Navbar path={router.asPath} />
         <div className="flex justify-center items-center md:max-w-[640px] max-w-[480px] w-full relative md:h-[376px] h-[336px] mt-[-120] mb-[-200] ">
           <LazyRoom />
         </div>

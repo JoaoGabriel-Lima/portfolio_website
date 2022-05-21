@@ -4,10 +4,14 @@ import { AppProps } from "next/app";
 import Layout from "../components/layouts/main";
 import { LayoutStyle } from "../styles/components/layout";
 
-function MyApp({ Component, pageProps }: AppProps) {
+if (typeof window !== "undefined") {
+  window.history.scrollRestoration = "manual";
+}
+
+function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <LayoutStyle>
-      <Layout>
+      <Layout router={router}>
         <AnimatePresence
           exitBeforeEnter
           initial={true}

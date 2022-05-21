@@ -1,6 +1,6 @@
 # João's Homepage
 
-[https://www.joaolima.vercel.app/](https://www.joaolima.vercel.app/)
+[https://joaolima.vercel.app/](https://joaolima.vercel.app/)
 
 ## Stack
 

@@ -4,6 +4,8 @@ import React from "react";
 import Layout from "../components/layouts/page";
 import Section from "../components/page/article";
 import { IoIosArrowForward } from "react-icons/io";
+import NextLink from "next/link";
+import SocialMediaLink from "../components/util/socialMediaLink";
 
 const Home: NextPage = () => {
   return (
@@ -31,10 +33,7 @@ const Home: NextPage = () => {
             />
           </div>
         </section>
-        <Section delay={0.1}>
-          <h2 className="text-xl my-4 underline underline-offset-[6px] decoration-[4px] decoration-[#525252] font-semibold">
-            About me
-          </h2>
+        <Section delay={0.1} title="About me" margin={4}>
           <p className="text-base text-justify indent-[1em]">
             I am a freelance and a full-stack developer based in Brazil with a
             passion for building digital services/stuff I want. I have a knack
@@ -42,21 +41,53 @@ const Home: NextPage = () => {
             the way to solving real-life problems with code.
           </p>
         </Section>
-        <Section delay={0.2}>
-          <h2 className="text-xl my-4 underline underline-offset-[6px] decoration-[4px] decoration-[#525252] font-semibold">
-            Tech Stack
-          </h2>
+        <Section delay={0.2} title="Tech Stack">
           <p className="text-base text-justify indent-[1em]">
             Currently, I keep my focus on backend and frontend development using
             technologies such as JavaScript, Typescript, Next.js, Flutter,
             Node.js and GraphQL.
           </p>
           <div className="w-full flex justify-center mt-4">
-            <button className="flex items-center rounded-md font-semibold px-5 h-10 text-white/90 dark:text-black bg-[#d1823e] dark:bg-[#ffa352] hover:bg-[#b97132] hover:dark:bg-[#e6934b] transition-colors">
-              My projects
-              <IoIosArrowForward className="pl-2 font-bold text-xl" />
-            </button>
+            <NextLink href={"/projects"} passHref scroll={false}>
+              <button className="flex items-center rounded-md font-semibold px-5 h-10 text-white/90 dark:text-black bg-[#d1823e] dark:bg-[#fda04f] hover:bg-[#b97132] hover:dark:bg-[#db8c46] transition-colors">
+                My projects
+                <IoIosArrowForward className="pl-2 font-bold text-xl" />
+              </button>
+            </NextLink>
           </div>
+        </Section>
+        <Section delay={0.3} margin={0} title="I ♥">
+          <p className="text-base text-justify indent-[1em]">
+            Art, Music, Drawing, Photography,{" "}
+            <a
+              href="https://discord.gg/A8QpetRAmS"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer hover:underline dark:text-[#ff63c3] text-[#3d7aed]"
+            >
+              Teach other people
+            </a>
+            , Machine Learning
+          </p>
+        </Section>
+        <Section delay={0.4} title="On the web">
+          <ul>
+            <SocialMediaLink
+              title="@JoaoGabriel-Lima"
+              icon={1}
+              link={"https://github.com/JoaoGabriel-Lima"}
+            />
+            <SocialMediaLink
+              title="@juaozin__"
+              icon={2}
+              link={"https://twitter.com/juaozin__"}
+            />
+            <SocialMediaLink
+              title="@marinho.jao"
+              icon={3}
+              link={"https://www.instagram.com/marinho.jao/"}
+            />
+          </ul>
         </Section>
       </main>
     </Layout>
