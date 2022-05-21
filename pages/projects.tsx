@@ -1,14 +1,63 @@
 /* eslint-disable react/no-unescaped-entities */
 import Layout from "../components/layouts/page";
+import ProjectGrid from "../components/projects/projectgrid";
 
 const Projects = () => {
   return (
     <Layout title={"Projects"}>
       <div>
-        <h1 className="text-2xl mb-1 sm:text-2xl big-title font-bold leading-[1.2]">
+        <h1 className="text-xl mb-4 sm:text-xl big-title font-bold leading-[1.2]">
           Projects
         </h1>
-        <h4>There's a grid here</h4>
+        <section className="grid grid-cols-1 md:grid-cols-2 w-full h-auto gap-[1.5rem]">
+          <ProjectGrid
+            id={"portifolio_website"}
+            title={"This portifolio"}
+            thumbnail={"/thumbs/portfolio.jpg"}
+          >
+            My personal portfolio where I store all my projects, collaborations
+            and posts.
+          </ProjectGrid>
+          <ProjectGrid
+            id={"notemock"}
+            title={"Notemock"}
+            thumbnail={"/thumbs/notemock.jpg"}
+          >
+            A to-do list website made with Next.js focused on students and
+            developers.
+          </ProjectGrid>
+          <ProjectGrid
+            id={"singwatch"}
+            title={"SingWatch"}
+            thumbnail={"/thumbs/singwatch.jpg"}
+          >
+            An open source project that aims to let you sync songs from discord
+            server with Hydra music bot.
+          </ProjectGrid>
+          <ProjectGrid
+            id={"lookface"}
+            title={"Lookface"}
+            thumbnail={"/thumbs/lookface.jpg"}
+          >
+            An face recognition website that uses the power of TensorFlow.js and
+            WebAssembly
+          </ProjectGrid>
+        </section>
+        <hr className="my-[1.5rem] w-full opacity-60 border-gray-500/50" />
+        <h1 className="text-xl mb-4 sm:text-xl big-title font-bold leading-[1.2]">
+          Collaborations
+        </h1>
+        <section className="grid grid-cols-1 md:grid-cols-2 w-full h-auto gap-[1.5rem]">
+          <ProjectGrid
+            id={"futop"}
+            title={"Futop"}
+            thumbnail={"/thumbs/futop.jpg"}
+          >
+            A project developed for the RISE Global Challenge with the aim of
+            promoting accessibility to high-quality information for young
+            people.
+          </ProjectGrid>
+        </section>
       </div>
     </Layout>
   );

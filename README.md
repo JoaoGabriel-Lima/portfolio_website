@@ -1,6 +1,7 @@
 # João's Homepage
 
 [https://joaolima.vercel.app/](https://joaolima.vercel.app/)
+(Inspired by the [craftz.dog](https://craftz.dog/) portfolio )
 
 ## Stack
 

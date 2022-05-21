@@ -7,7 +7,6 @@ import { LayoutStyle } from "../styles/components/layout";
 if (typeof window !== "undefined") {
   window.history.scrollRestoration = "manual";
 }
-
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <LayoutStyle>
@@ -15,13 +14,9 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <AnimatePresence
           exitBeforeEnter
           initial={true}
-          onExitComplete={() => {
-            if (typeof window !== "undefined") {
-              window.scrollTo({ top: 0 });
-            }
-          }}
+          onExitComplete={() => window.scrollTo(0, 0)}
         >
-          <Component {...pageProps} />
+          <Component {...pageProps} key={router.pathname} />
         </AnimatePresence>
       </Layout>
     </LayoutStyle>
