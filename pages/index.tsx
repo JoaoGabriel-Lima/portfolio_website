@@ -35,10 +35,11 @@ const Home: NextPage = () => {
         </section>
         <Section delay={0.1} title="About me" margin={4}>
           <p className="text-base text-justify indent-[1em]">
-            I am a freelance and a full-stack developer based in Brazil with a
-            passion for building digital services/stuff I want. I have a knack
-            for all things launching products, from planning and designing all
-            the way to solving real-life problems with code.
+            I am a freelancer and a full-stack developer, currently based in
+            Brazil, with a passion for applying my knowledge to solve real-life
+            problems building unique products. I believe that my projects can
+            help people who are starting to develop digital products, so I
+            maintain open-source software for the community.
           </p>
         </Section>
         <Section delay={0.2} title="Tech Stack">

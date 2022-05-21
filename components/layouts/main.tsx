@@ -21,18 +21,37 @@ const Main = ({ children, router }: MainLayoutProps) => {
     <section>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="João's portfolio" />
-        <meta name="author" content="João Lima" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="João Lima" />
+        <meta name="theme-color" content="#eb9d5a"></meta>
+        <meta
+          name="description"
+          content="I am a freelancer and a full-stack developer, currently based in
+            Brazil, with a passion for applying my knowledge to solve real-life
+            problems building unique products. I believe that my projects can
+            help people who are starting to develop digital products, so I
+            maintain open-source software for the community."
+        />
+        <meta name="author" content="João Gabriel Lima Marinho" />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@juaozin__" />
         <meta name="twitter:creator" content="@juaozin__" />
-        <meta name="theme-color" content="#eb9d5a"></meta>
-        <meta property="og:site_name" content="João Lima" />
-        <meta name="og:title" content="João Lima" />
+
+        <meta property="og:site_name" content="João's Portfolio" />
         <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content="I am a freelancer and a full-stack developer, currently based in
+            Brazil, with a passion for applying my knowledge to solve real-life
+            problems building unique products. I believe that my projects can
+            help people who are starting to develop digital products, so I
+            maintain open-source software for the community."
+        />
+
+        {/* <meta property="og:image" content="/profile.jpeg" /> */}
+        <meta name="twitter:title" content="João Lima - Homepage" />
+        <meta name="og:title" content="João Lima - Homepage" />
         <title>João Lima - Homepage</title>
       </Head>
       <main className="transition-colors duration-300 w-full px-8 pb-8 max-w-full h-auto min-h-screen dark:text-white/[.92]  bg-[#f0e7db] dark:bg-[#202023] flex items-center flex-col ">

@@ -7,7 +7,7 @@ const Construction = () => {
     <Layout title={"Under Construction"}>
       <div>
         <h1 className="text-3xl mb-1 sm:text-4xl big-title font-bold leading-[1.2]">
-          Under construction 🚧
+          Under construction
         </h1>
         <h4>The page you're looking is under construction.</h4>
       </div>

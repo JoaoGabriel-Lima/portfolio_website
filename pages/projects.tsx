@@ -15,8 +15,8 @@ const Projects = () => {
             title={"This portifolio"}
             thumbnail={"/thumbs/portfolio.jpg"}
           >
-            My personal portfolio where I store all my projects, collaborations
-            and posts.
+            My portfolio where I store all my projects, collaborations, and
+            posts.
           </ProjectGrid>
           <ProjectGrid
             id={"notemock"}
@@ -31,7 +31,7 @@ const Projects = () => {
             title={"SingWatch"}
             thumbnail={"/thumbs/singwatch.jpg"}
           >
-            An open source project that aims to let you sync songs from discord
+            An open-source project that aims to let you sync songs from discord
             server with Hydra music bot.
           </ProjectGrid>
           <ProjectGrid
@@ -39,7 +39,7 @@ const Projects = () => {
             title={"Lookface"}
             thumbnail={"/thumbs/lookface.jpg"}
           >
-            An face recognition website that uses the power of TensorFlow.js and
+            A face recognition website that uses the power of TensorFlow.js and
             WebAssembly
           </ProjectGrid>
         </section>
@@ -54,8 +54,7 @@ const Projects = () => {
             thumbnail={"/thumbs/futop.jpg"}
           >
             A project developed for the RISE Global Challenge with the aim of
-            promoting accessibility to high-quality information for young
-            people.
+            promoting access to high-quality information for young people.
           </ProjectGrid>
         </section>
       </div>
