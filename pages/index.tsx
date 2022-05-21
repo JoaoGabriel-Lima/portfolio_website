@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         </Section>
         <Section delay={0.3} margin={0} title="I ♥">
           <p className="text-base text-justify indent-[1em]">
-            Machine Learning, Teach other people, Art, Music, Drawing,
+            Machine Learning, Teaching other people, Art, Music, Drawing,
             Photography{" "}
             {/* <a
               href="https://discord.gg/A8QpetRAmS"
