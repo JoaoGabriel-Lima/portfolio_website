@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <main className="flex justify-start items-center flex-col w-full">
         <div className="mb-[24px] bg-white/[.36] dark:bg-white/[.08] backdrop-blur-md py-[12px] rounded-lg w-full flex justify-center items-center">
           <h4 className="text-center px-2">
-            Hello, I'm a Brazilian fullstack developer!
+            Hello, I'm a Brazilian full-stack developer!
           </h4>
         </div>
         <section className="flex justify-start flex-col md:flex-row md:justify-between w-full items-start gap-x-6 flex-wrap gap-y-4">
@@ -59,16 +59,15 @@ const Home: NextPage = () => {
         </Section>
         <Section delay={0.3} margin={0} title="I ♥">
           <p className="text-base text-justify indent-[1em]">
-            Art, Music, Drawing, Photography,{" "}
-            <a
+            Machine Learning, Teach other people, Art, Music, Drawing,
+            Photography{" "}
+            {/* <a
               href="https://discord.gg/A8QpetRAmS"
               target="_blank"
               rel="noreferrer"
               className="cursor-pointer hover:underline dark:text-[#ff63c3] text-[#3d7aed]"
-            >
-              Teach other people
-            </a>
-            , Machine Learning
+            > */}
+            {/* </a> */}
           </p>
         </Section>
         <Section delay={0.4} title="On the web">

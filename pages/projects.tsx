@@ -12,7 +12,7 @@ const Projects = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 w-full h-auto gap-[1.5rem]">
           <ProjectGrid
             id={"portifolio_website"}
-            title={"This portifolio"}
+            title={"This portfolio"}
             thumbnail={"/thumbs/portfolio.jpg"}
           >
             My portfolio where I store all my projects, collaborations, and
@@ -31,7 +31,7 @@ const Projects = () => {
             title={"SingWatch"}
             thumbnail={"/thumbs/singwatch.jpg"}
           >
-            An open-source project that aims to let you sync songs from discord
+            An open-source project that aims to let you sync music into discord
             server with Hydra music bot.
           </ProjectGrid>
           <ProjectGrid
