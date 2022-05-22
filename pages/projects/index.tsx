@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import Layout from "../components/layouts/page";
-import ProjectGrid from "../components/projects/projectgrid";
+import Layout from "../../components/layouts/page";
+import ProjectGrid from "../../components/projects/projectgrid";
 
 const Projects = () => {
   return (
@@ -14,6 +14,7 @@ const Projects = () => {
             id={"portifolio_website"}
             title={"This portfolio"}
             thumbnail={"/thumbs/portfolio.jpg"}
+            isdone
           >
             My portfolio where I store all my projects, collaborations, and
             posts.
@@ -22,6 +23,7 @@ const Projects = () => {
             id={"notemock"}
             title={"Notemock"}
             thumbnail={"/thumbs/notemock.jpg"}
+            isdone
           >
             A to-do list website made with Next.js focused on students and
             developers.
@@ -30,6 +32,7 @@ const Projects = () => {
             id={"singwatch"}
             title={"SingWatch"}
             thumbnail={"/thumbs/singwatch.jpg"}
+            isdone
           >
             An open-source project that aims to let you sync music into discord
             server with Hydra music bot.
@@ -38,6 +41,7 @@ const Projects = () => {
             id={"lookface"}
             title={"Lookface"}
             thumbnail={"/thumbs/lookface.jpg"}
+            isdone
           >
             A face recognition website that uses the power of TensorFlow.js and
             WebAssembly
@@ -52,6 +56,7 @@ const Projects = () => {
             id={"futop"}
             title={"Futop"}
             thumbnail={"/thumbs/futop.jpg"}
+            isdone
           >
             A project developed for the RISE Global Challenge with the aim of
             promoting access to high-quality information for young people.

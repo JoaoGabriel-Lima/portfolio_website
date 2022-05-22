@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["plugin:react/recommended", "google", "prettier"],
+  extends: ["plugin:@next/next/recommended", "google", "prettier"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
@@ -18,6 +18,7 @@ module.exports = {
     "react/jsx-no-undef": "off",
     "react/display-name": "off",
     "require-jsdoc": "off",
+    "@next/next/no-img-element": "off",
   },
   settings: {
     react: {

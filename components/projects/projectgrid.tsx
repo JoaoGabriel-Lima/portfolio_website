@@ -5,11 +5,22 @@ interface ProjectGridProps {
   id: string;
   title: string;
   thumbnail: string;
+  isdone?: boolean;
 }
 
-const ProjectGrid = ({ children, id, title, thumbnail }: ProjectGridProps) => {
+const ProjectGrid = ({
+  children,
+  id,
+  title,
+  thumbnail,
+  isdone = false,
+}: ProjectGridProps) => {
   return (
-    <NextLink href={`/construction`} passHref scroll={false}>
+    <NextLink
+      href={isdone ? `/projects/${id}` : "/construction"}
+      passHref
+      scroll={false}
+    >
       <div className="mb-6 cursor-pointer w-full flex justify-start items-center flex-col">
         <div className="relative w-full h-auto">
           <img
