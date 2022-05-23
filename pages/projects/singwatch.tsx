@@ -35,11 +35,11 @@ const SingWatchProjectPage = () => {
         <div className="w-full flex mt-1 flex-col gap-y-4">
           <img
             src="/projects/singwatch/singwatch1.png"
-            className="w-full rounded-xl"
+            className="w-full rounded-xl min-w-[175px]"
           />
           <img
             src="/projects/singwatch/singwatch2.png"
-            className="w-full rounded-xl"
+            className="w-full rounded-xl min-w-[175px]"
           />
         </div>
       </ProjectPage>

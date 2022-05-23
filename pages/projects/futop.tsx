@@ -12,6 +12,10 @@ const FutopProjectPage = () => {
         ]}
         links={[
           {
+            title: "Status",
+            linkTitle: "Finished",
+          },
+          {
             title: "Private",
             linkTitle: "Source Link is private",
           },
@@ -28,9 +32,18 @@ const FutopProjectPage = () => {
         ]}
       >
         <div className="w-full flex mt-1 flex-col gap-y-4">
-          <img src="/projects/futop/futop1.png" className="w-full rounded-xl" />
-          <img src="/projects/futop/futop2.png" className="w-full rounded-xl" />
-          <img src="/projects/futop/futop3.png" className="w-full rounded-xl" />
+          <img
+            src="/projects/futop/futop1.png"
+            className="w-full rounded-xl min-w-[175px]"
+          />
+          <img
+            src="/projects/futop/futop2.png"
+            className="w-full rounded-xl min-w-[175px]"
+          />
+          <img
+            src="/projects/futop/futop3.png"
+            className="w-full rounded-xl min-w-[175px]"
+          />
         </div>
       </ProjectPage>
     </Layout>

@@ -29,17 +29,21 @@ const ProjectPage = ({
 }: ProjectPageProps) => {
   return (
     <div className="w-full h-auto flex flex-col justify-start items-start">
-      <div className="mb-4 flex items-end">
-        <NextLink href="/projects" passHref>
-          <a className="text-base underline-offset-[3px] hover:underline outline-2 outline-offset-2 cursor-pointer dark:text-[#ff63c3] text-[#3d7aed]">
-            Projects
-          </a>
-        </NextLink>
-        <MdOutlineKeyboardArrowRight className="text-base mx-[3px] mb-[2px]" />
-        <h3 className="text-xl font-semibold big-title">{title}</h3>
-        <span className="hover:underline cursor-pointer tracking-wider text-xs px-1 bg-gray-100 dark:bg-[#e2e8f0]/[.16] font-bold rounded-[2px] mb-1 ml-[5px]">
-          {date}
-        </span>
+      <div className="mb-4 flex items-end flex-wrap">
+        <div className="flex items-end">
+          <NextLink href="/projects" passHref>
+            <a className="text-base underline-offset-[3px] hover:underline outline-2 outline-offset-2 cursor-pointer dark:text-[#ff63c3] text-[#3d7aed]">
+              Projects
+            </a>
+          </NextLink>
+          <MdOutlineKeyboardArrowRight className="text-base mx-[3px] mb-[2px]" />
+        </div>
+        <div className="flex items-end">
+          <h3 className="text-xl font-semibold big-title">{title}</h3>
+          <span className="text-center hover:underline cursor-pointer tracking-wider text-xs px-1 bg-gray-100 dark:bg-[#e2e8f0]/[.16] font-bold rounded-[2px] mb-1 ml-[5px]">
+            {date}
+          </span>
+        </div>
       </div>
       <div>
         {description.map((item, index) => (

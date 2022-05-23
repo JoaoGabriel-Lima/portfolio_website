@@ -26,7 +26,7 @@ export default function DropdownMenu() {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="absolute right-0 mt-2 w-52 border-[1px] border-white/20 origin-top-right divide-y divide-gray-100 rounded-md bg-white dark:bg-[#2d3748] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <Menu.Items className="absolute right-0 mt-2 w-52 border-[1px] border-white/20 origin-top-right divide-y divide-gray-100 rounded-md bg-white dark:bg-[#2C2C30] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="px-1 py-2 ">
               <Menu.Item>
                 {({ active }) => (

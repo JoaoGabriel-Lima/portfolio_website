@@ -34,11 +34,11 @@ const NotemockProjectPage = () => {
         <div className="w-full flex mt-1 flex-col gap-y-4">
           <img
             src="/projects/notemock/tablet.png"
-            className="w-full rounded-xl"
+            className="w-full rounded-xl min-h-[150px]"
           />
           <img
             src="/projects/notemock/devices.jpg"
-            className="w-full rounded-xl"
+            className="w-full rounded-xl min-h-[120px]"
           />
         </div>
       </ProjectPage>

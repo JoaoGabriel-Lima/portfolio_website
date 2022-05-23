@@ -22,6 +22,10 @@ a {
   box-sizing: border-box;
 }
 
+* div {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .big-title {
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
