@@ -60,14 +60,7 @@ const Home: NextPage = () => {
         <Section delay={0.3} margin={0} title="I ♥">
           <p className="text-base text-justify indent-[1em]">
             Machine Learning, Teaching other people, Art, Music, Drawing,
-            Photography{" "}
-            {/* <a
-              href="https://discord.gg/A8QpetRAmS"
-              target="_blank"
-              rel="noreferrer"
-              className="cursor-pointer hover:underline dark:text-[#ff63c3] text-[#3d7aed]"
-            > */}
-            {/* </a> */}
+            Photography
           </p>
         </Section>
         <Section delay={0.4} title="On the web">
