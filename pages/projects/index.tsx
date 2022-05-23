@@ -11,7 +11,7 @@ const Projects = () => {
         </h1>
         <section className="grid grid-cols-1 md:grid-cols-2 w-full h-auto gap-[1.5rem]">
           <ProjectGrid
-            id={"portifolio_website"}
+            id={"portfolio_website"}
             title={"This portfolio"}
             thumbnail={"/thumbs/portfolio.jpg"}
             isdone

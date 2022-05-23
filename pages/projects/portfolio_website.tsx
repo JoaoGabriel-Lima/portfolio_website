@@ -8,7 +8,7 @@ const PortfolioProjectPage = () => {
         date={"2022-PRESENT"}
         title={"Portfolio"}
         description={[
-          "My portfolio where I store all my projects, collaborations, and posts. This project was made from scratch by me and inspired by Takuya Matsuyama's portfolio UI.",
+          "The website where I store all my projects, collaborations, and posts. I made this project from scratch and was inspired by Takuya Matsuyama's portfolio UI.",
         ]}
         links={[
           {
@@ -21,7 +21,7 @@ const PortfolioProjectPage = () => {
             linkTitle: "GitHub Link",
           },
           {
-            title: "INSPIRATION",
+            title: "UI INSPIRATION",
             linkTitle: "Takuya Matsuyama Portfolio",
             link: "https://github.com/craftzdog/craftzdog-homepage",
           },
@@ -33,16 +33,7 @@ const PortfolioProjectPage = () => {
           },
         ]}
       >
-        <div className="w-full flex mt-1 flex-col gap-y-4">
-          {/* <img
-            src="/projects/notemock/tablet.png"
-            className="w-full rounded-xl"
-          />
-          <img
-            src="/projects/notemock/devices.jpg"
-            className="w-full rounded-xl"
-          /> */}
-        </div>
+        <div className="w-full flex mt-1 flex-col gap-y-4"></div>
       </ProjectPage>
     </Layout>
   );
