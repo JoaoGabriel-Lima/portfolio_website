@@ -42,6 +42,7 @@ const ThemeToggleButton = () => {
         transition={{ duration: 0.2 }}
       >
         <button
+          aria-label={`${isDark ? "Light" : "Dark"} mode`}
           className={`w-10 h-10 flex justify-center items-center rounded-md ${
             isDark
               ? "bg-[#FBD38D] hover:bg-[#f6ad55]"

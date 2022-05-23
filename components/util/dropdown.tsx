@@ -13,7 +13,10 @@ export default function DropdownMenu() {
     <div className="ml-2 relative text-right sm:hidden">
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex w-10 h-10 border-[1px] border-black/[.26] dark:border-white/[.16] items-center justify-center rounded-md bg-black bg-opacity-0 font-medium text-white hover:bg-opacity-10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+          <Menu.Button
+            aria-label="Dropdown Menu"
+            className="inline-flex w-10 h-10 border-[1px] border-black/[.26] dark:border-white/[.16] items-center justify-center rounded-md bg-black bg-opacity-0 font-medium text-white hover:bg-opacity-10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          >
             <BiMenu className="text-xl text-black dark:text-white" />
           </Menu.Button>
         </div>

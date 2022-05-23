@@ -72,7 +72,7 @@ const ProjectPage = ({
                   </span>
                 </a>
               ) : (
-                <a>{item.linkTitle}</a>
+                <span>{item.linkTitle}</span>
               )}
             </li>
           ))}

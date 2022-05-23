@@ -34,10 +34,12 @@ const FaceLookProjectPage = () => {
       >
         <div className="w-full flex mt-1 flex-col gap-y-4">
           <img
+            alt="Project Image 1"
             src="/projects/lookface/lookface1.png"
             className="w-full rounded-xl min-w-[175px]"
           />
           <img
+            alt="Project Image 2"
             src="/projects/lookface/lookface2.png"
             className="w-full rounded-xl min-w-[175px]"
           />

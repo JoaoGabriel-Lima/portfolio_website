@@ -33,14 +33,17 @@ const FutopProjectPage = () => {
       >
         <div className="w-full flex mt-1 flex-col gap-y-4">
           <img
+            alt="Project Image 1"
             src="/projects/futop/futop1.png"
             className="w-full rounded-xl min-w-[175px]"
           />
           <img
+            alt="Project Image 2"
             src="/projects/futop/futop2.png"
             className="w-full rounded-xl min-w-[175px]"
           />
           <img
+            alt="Project Image 3"
             src="/projects/futop/futop3.png"
             className="w-full rounded-xl min-w-[175px]"
           />
