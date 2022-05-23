@@ -6,10 +6,17 @@ import Section from "../components/page/article";
 import { IoIosArrowForward } from "react-icons/io";
 import NextLink from "next/link";
 import SocialMediaLink from "../components/util/socialMediaLink";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
     <Layout>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="_MXiBrOYQrfyrecEbgYR3d5NQbZvB1cQtNYYLJhbiKk"
+        />
+      </Head>
       <main className="flex justify-start items-center flex-col w-full">
         <div className="mb-[24px] bg-white/[.36] dark:bg-white/[.08] backdrop-blur-md py-[12px] rounded-lg w-full flex justify-center items-center">
           <h4 className="text-center px-2">
