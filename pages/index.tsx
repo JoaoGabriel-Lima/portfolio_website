@@ -19,18 +19,18 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex justify-start items-center flex-col w-full">
         <div className="mb-[24px] bg-white/[.36] dark:bg-white/[.08] backdrop-blur-md py-[12px] rounded-lg w-full flex justify-center items-center">
-          <h4 className="text-center px-2">
+          <p className="text-center px-2">
             Hello, I'm a Brazilian full-stack developer!
-          </h4>
+          </p>
         </div>
         <section className="flex justify-start flex-col md:flex-row md:justify-between w-full items-start gap-x-6 flex-wrap gap-y-4">
           <div className="flex flex-col">
             <h1 className="text-3xl sm:text-4xl big-title font-bold leading-[1.2]">
               João Lima
             </h1>
-            <h3 className="tracking-wide text-base">
+            <h2 className="tracking-wide text-base">
               Full-stack developer and UI/UX designer
-            </h3>
+            </h2>
           </div>
           <div className="flex flex-col justify-center items-center w-full md:w-auto ">
             <img
