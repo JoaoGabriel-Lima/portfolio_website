@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-col justify-center items-center w-full md:w-auto ">
             <img
-              src="/profile.jpeg"
+              src="/profile.jpg"
               alt="Profile Picture"
               className="rounded-full w-full border-white border-[2px] max-w-[96px]"
             />
