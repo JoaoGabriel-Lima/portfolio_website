@@ -62,7 +62,7 @@ export default function DropdownMenu() {
               <Menu.Item>
                 {({ active }) => (
                   <button
-                    onClick={() => push("/construction")}
+                    onClick={() => push("/posts")}
                     className={`${
                       active
                         ? "underline underline-offset-1 dark:bg-white/10 bg-blue-500/10"

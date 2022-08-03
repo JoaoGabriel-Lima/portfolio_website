@@ -4,6 +4,8 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 
+import { FaDev } from "react-icons/fa";
+
 interface LinkProps {
   title: string;
   link: string;
@@ -18,6 +20,7 @@ const SocialMediaLink = ({ title, link, icon }: LinkProps) => {
           {icon == 1 && <AiFillGithub className="mr-4" />}
           {icon == 2 && <AiOutlineTwitter className="mr-4" />}
           {icon == 3 && <AiOutlineInstagram className="mr-4" />}
+          {icon == 4 && <FaDev className="mr-4" />}
           {title}
         </button>
       </a>
