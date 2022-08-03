@@ -22,7 +22,7 @@ const PostGrid = ({ id, title, thumbnail, isdone = false }: PostGridProps) => {
             alt={title}
           />
         </div>
-        <h4 className="text-xl text-center mb-3 mt-4">{title}</h4>
+        <h4 className="text-lg text-center mb-3 mt-4">{title}</h4>
       </div>
     </NextLink>
   );
