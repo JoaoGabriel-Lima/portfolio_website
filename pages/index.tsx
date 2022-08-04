@@ -78,6 +78,11 @@ const Home: NextPage = () => {
               link={"https://github.com/JoaoGabriel-Lima"}
             />
             <SocialMediaLink
+              title="João Lima"
+              icon={5}
+              link={"https://www.linkedin.com/in/jo%C3%A3o-lima-60673b233/"}
+            />
+            <SocialMediaLink
               title="@joaolima"
               icon={4}
               link={"https://dev.to/joaolima"}
