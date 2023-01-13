@@ -64,13 +64,30 @@ const Home: NextPage = () => {
             </NextLink>
           </div>
         </Section>
-        <Section delay={0.3} margin={0} title="I ♥">
+        <Section delay={0.3} margin={0} title="Bio">
+          <div className="flex justify-start">
+            <span className="font-bold mr-[1em] whitespace-nowrap">
+              2018 to present
+            </span>
+            <p className="text-base text-justify">Working as a freelancer</p>
+          </div>
+          <div className="flex justify-start">
+            <span className="font-bold mr-[1em] whitespace-nowrap">
+              2022 to present
+            </span>
+            <p className="text-base">
+              Graduating in computer science at UFF (Universidade Federal
+              Fluminense)
+            </p>
+          </div>
+        </Section>
+        <Section delay={0.4} margin={0} title="I ♥">
           <p className="text-base text-justify indent-[1em]">
             Machine Learning, Teaching other people, Art, Music, Drawing,
             Photography
           </p>
         </Section>
-        <Section delay={0.4} title="On the web">
+        <Section delay={0.5} title="On the web">
           <ul>
             <SocialMediaLink
               title="@JoaoGabriel-Lima"

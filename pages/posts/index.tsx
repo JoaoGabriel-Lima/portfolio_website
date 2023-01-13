@@ -1,6 +1,13 @@
 import Layout from "../../components/layouts/page";
 import PostGrid from "../../components/posts/postgrid";
 
+// interface PostProps {
+//   id: number;
+//   title: string;
+//   thumbnail: string;
+//   path: string;
+// }
+
 const Posts = ({ posts }: any) => {
   return (
     <Layout title={"Projects"}>
