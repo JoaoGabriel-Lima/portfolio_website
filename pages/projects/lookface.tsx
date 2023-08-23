@@ -3,7 +3,7 @@ import ProjectPage from "../../components/projects/projectPage";
 
 const FaceLookProjectPage = () => {
   return (
-    <Layout title={"SingWatch"}>
+    <Layout title={"LookFace"}>
       <ProjectPage
         date={"2022-PRESENT"}
         title={"FaceLook"}

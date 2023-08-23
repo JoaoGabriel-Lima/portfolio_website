@@ -13,7 +13,7 @@ const SingWatchProjectPage = () => {
         links={[
           {
             title: "Status",
-            linkTitle: "Unfinished",
+            linkTitle: "Unfinished (Heroku is no longer free)",
           },
           {
             title: "Website",

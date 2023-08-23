@@ -29,13 +29,14 @@ const Projects = () => {
             developers.
           </ProjectGrid>
           <ProjectGrid
-            id={"singwatch"}
-            title={"SingWatch"}
-            thumbnail={"/thumbs/singwatch.jpg"}
+            id={"rastros_perdidos"}
+            title={"Rastros Perdidos"}
+            thumbnail={"/thumbs/rastros_perdidos.jpg"}
             isdone
           >
-            An open-source project that aims to let you sync music into discord
-            server with Hydra music bot.
+            A 16-bit RPG-style investigation game with 8-way gameplay, in which
+            the player takes on the role of a female detective who is
+            investigating a murder in a village.
           </ProjectGrid>
           <ProjectGrid
             id={"lookface"}
@@ -45,6 +46,23 @@ const Projects = () => {
           >
             A face recognition website that uses the power of TensorFlow.js and
             WebAssembly
+          </ProjectGrid>
+          <ProjectGrid
+            id={"singwatch"}
+            title={"SingWatch"}
+            thumbnail={"/thumbs/singwatch.jpg"}
+            isdone
+          >
+            An open-source project that aims to let you sync music into discord
+            server with Hydra music bot.
+          </ProjectGrid>
+          <ProjectGrid
+            id={"clever"}
+            title={"Clever"}
+            thumbnail={"/thumbs/clever.jpg"}
+            isdone
+          >
+            Clever is a web application focused on secure backend service.
           </ProjectGrid>
         </section>
         <hr className="my-[1.5rem] w-full opacity-60 border-gray-500/50" />
