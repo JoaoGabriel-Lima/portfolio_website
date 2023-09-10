@@ -80,6 +80,22 @@ const Home: NextPage = () => {
               Fluminense)
             </p>
           </div>
+          <div className="flex justify-start">
+            <span className="font-bold mr-[1em] whitespace-nowrap">
+              2023 to present
+            </span>
+            <p className="text-base">
+              Technological initiation scholarship at{" "}
+              <a
+                href="https://friendslab.uff.br/"
+                target="_blank"
+                className="underline-offset-[3px] hover:underline outline-2 outline-offset-2 cursor-pointer dark:text-[#ff63c3] text-[#3d7aed]"
+              >
+                FRIENDS Laboratory
+              </a>{" "}
+              (Universidade Federal Fluminense)
+            </p>
+          </div>
         </Section>
         <Section delay={0.4} margin={0} title="I ♥">
           <p className="text-base text-justify indent-[1em]">
