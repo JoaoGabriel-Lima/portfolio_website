@@ -21,7 +21,12 @@ const FutopProjectPage = () => {
           },
           {
             title: "Website",
-            link: "https://futop.ga/",
+            link: "https://futop.tech/",
+          },
+          {
+            title: "My partner",
+            linkTitle: "Kesney Ferro",
+            link: "https://www.linkedin.com/in/kesney-lucas-ferro-de-oliveira-0b4514243/",
           },
           { title: "Plataform", linkTitle: "Browser" },
           {

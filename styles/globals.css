@@ -29,8 +29,12 @@ a {
 .big-title {
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
-/* :root {
+/* [data-color-scheme="dark"] {
   color-scheme: dark;
+}
+
+[data-color-scheme="light"] {
+  color-scheme: light;
 } */
 
 @tailwind base;
