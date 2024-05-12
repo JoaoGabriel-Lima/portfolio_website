@@ -123,7 +123,7 @@ const Home: NextPage = () => {
             <SocialMediaLink
               title="@juaozin__"
               icon={2}
-              link={"https://twitter.com/juaozin__"}
+              link={"https://twitter.com/juaozin___"}
             />
             <SocialMediaLink
               title="@marinho.jao"
