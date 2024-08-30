@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-col justify-center items-center w-full md:w-auto ">
             <img
-              src="/profile5.jpg"
+              src="/profile6.jpg"
               alt="Profile Picture"
               className="rounded-full w-full border-white border-[2px] max-w-[96px]"
             />
@@ -94,6 +94,39 @@ const Home: NextPage = () => {
                 FRIENDS Laboratory
               </a>{" "}
               (Universidade Federal Fluminense)
+            </p>
+          </div>
+
+          <div className="flex justify-start">
+            <span className="font-bold mr-[1em] whitespace-nowrap">
+              2023 to present
+            </span>
+            <p className="text-base">
+              Research and development volunteer at{" "}
+              <a
+                href="https://www.nvidia.com/pt-br/drivers/prbr-080311/"
+                target="_blank"
+                className="underline-offset-[3px] hover:underline outline-2 outline-offset-2 cursor-pointer dark:text-[#ff63c3] text-[#3d7aed]"
+              >
+                MediaLab
+              </a>{" "}
+              (Universidade Federal Fluminense)
+            </p>
+          </div>
+
+          <div className="flex justify-start">
+            <span className="font-bold mr-[1em] whitespace-nowrap">
+              2023 to present
+            </span>
+            <p className="text-base">
+              Frontend Developer at{" "}
+              <a
+                href="https://ysmart.com.br/"
+                target="_blank"
+                className="underline-offset-[3px] hover:underline outline-2 outline-offset-2 cursor-pointer dark:text-[#ff63c3] text-[#3d7aed]"
+              >
+                YSMART
+              </a>{" "}
             </p>
           </div>
         </Section>
