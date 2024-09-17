@@ -35,8 +35,8 @@ const Main = ({ children, router }: MainLayoutProps) => {
         <meta name="author" content="João Gabriel Lima Marinho" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@juaozin__" />
-        <meta name="twitter:creator" content="@juaozin__" />
+        <meta name="twitter:site" content="https://joaolima.vercel.app/" />
+        <meta name="twitter:creator" content="João Lima" />
 
         <meta property="og:site_name" content="João's Portfolio" />
         <meta property="og:type" content="website" />
@@ -49,7 +49,8 @@ const Main = ({ children, router }: MainLayoutProps) => {
             maintain open-source software for the community."
         />
 
-        {/* <meta property="og:image" content="/profile.jpeg" /> */}
+        <meta property="og:image" content="/profile6.jpg" />
+        <meta property="twitter:image" content="/profile6.jpg" />
         <meta name="twitter:title" content="João Lima - Homepage" />
         <meta name="og:title" content="João Lima - Homepage" />
         <title>João Lima - Homepage</title>

@@ -48,17 +48,17 @@ const RastrosPerdidosPage = () => {
       >
         <div className="w-full flex mt-1 flex-col gap-y-4">
           <img
-            alt="Project Image 1"
+            alt="Project 1"
             src="/projects/rastros_perdidos/1.png"
             className="w-full rounded-xl min-w-[175px]"
           />
           <img
-            alt="Project Image 2"
+            alt="Project 2"
             src="/projects/rastros_perdidos/2.png"
             className="w-full rounded-xl min-w-[175px]"
           />
           <img
-            alt="Project Image 3"
+            alt="Project 3"
             src="/projects/rastros_perdidos/3.png"
             className="w-full rounded-xl min-w-[175px]"
           />

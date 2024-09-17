@@ -47,7 +47,7 @@ const ProjectPage = ({
       </div>
       <div>
         {description.map((item, index) => (
-          <p key={index} className="text-base text-justify indent-[1em]">
+          <p key={index} className="text-base text-justify indent-[1em] ">
             {item}
           </p>
         ))}

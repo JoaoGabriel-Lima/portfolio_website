@@ -36,14 +36,12 @@ const Navbar = (props: NavbarProps) => {
       <section className="max-w-[730px] w-full h-[40px] flex justify-between items-center">
         <div id="left" className="flex sm:ml-0 ml-3">
           <NextLink href="/" passHref scroll={false}>
-            <a>
-              <span className="text-black text-lg font-bold flex items-center">
-                <div className="bg-[#e28b40] dark:bg-[#eb9d5a] rounded-full w-5 h-5 mr-2"></div>
-                <h2 className=" font-bold tracking-tight text-gray-800  dark:text-white/[.92] text-[18px]">
-                  João Lima
-                </h2>
-              </span>
-            </a>
+            <span className="text-black text-lg font-bold flex items-center cursor-pointer">
+              <div className="bg-[#e28b40] dark:bg-[#eb9d5a] rounded-full w-5 h-5 mr-2"></div>
+              <h2 className=" font-bold tracking-tight text-gray-800  dark:text-white/[.92] text-[18px]">
+                João Lima
+              </h2>
+            </span>
           </NextLink>
           <div className="sm:flex hidden ml-9 items-center gap-x-5">
             <LinkItem href={"/projects"} path={path}>

@@ -30,7 +30,7 @@ const ProjectGrid = ({
           />
         </div>
         <h4 className="text-xl text-center mb-1 mt-4">{title}</h4>
-        <p className="text-sm text-center">{children}</p>
+        <p className="text-sm text-center text-pretty">{children}</p>
       </div>
     </NextLink>
   );

@@ -7,9 +7,60 @@ const Projects = () => {
     <Layout title={"Projects"}>
       <div>
         <h1 className="text-xl mb-4 sm:text-xl big-title font-bold leading-[1.2]">
+          Works
+        </h1>
+        <section className="grid grid-cols-1 md:grid-cols-2 w-full h-auto gap-[1.5rem]">
+          <ProjectGrid
+            id={"ysmart"}
+            title={"YSMART"}
+            thumbnail={"/thumbs/ysmart.jpg"}
+            isdone
+          >
+            Frontend development for monitoring and decision-support solutions
+            in digital substations.
+          </ProjectGrid>
+          <ProjectGrid
+            id={"daliancas"}
+            title={"DAlianças"}
+            thumbnail={"/thumbs/daliancas.jpg"}
+            isdone
+          >
+            Fullstack development of a custom wholesale store and admin system
+            for a jewelry factory.
+          </ProjectGrid>
+          <ProjectGrid
+            id={"telessaude"}
+            title={"Telessaúde HUAP"}
+            thumbnail={"/thumbs/telessaude.jpg"}
+            isdone
+          >
+            Frontend development for UFF Telehealth Center, enhancing
+            accessibility, education, and quality in healthcare.
+          </ProjectGrid>
+          <ProjectGrid
+            id={"fusic"}
+            title={"Fusic"}
+            thumbnail={"/thumbs/fusic.jpg"}
+            isdone
+          >
+            Music bot for a design company’s Discord server using ffmpeg,
+            deployed with containers and CI/CD strategies.
+          </ProjectGrid>
+        </section>
+        <hr className="my-[1.5rem] w-full opacity-60 border-gray-500/50" />
+        <h1 className="text-xl mb-4 sm:text-xl big-title font-bold leading-[1.2]">
           Projects
         </h1>
         <section className="grid grid-cols-1 md:grid-cols-2 w-full h-auto gap-[1.5rem]">
+          <ProjectGrid
+            id={"escalonador_de_processos"}
+            title={"Escalonador de Processos"}
+            thumbnail={"/thumbs/escalonador.jpg"}
+            isdone
+          >
+            A process scheduler implementing a feedback-based short-term
+            scheduling policy.
+          </ProjectGrid>
           <ProjectGrid
             id={"portfolio_website"}
             title={"This portfolio"}

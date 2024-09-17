@@ -8,6 +8,13 @@ import NextLink from "next/link";
 import SocialMediaLink from "../components/util/socialMediaLink";
 import Head from "next/head";
 
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiOutlineInstagram,
+} from "react-icons/ai";
+import { FaDev, FaLinkedin } from "react-icons/fa";
+
 const Home: NextPage = () => {
   return (
     <Layout>
@@ -35,7 +42,7 @@ const Home: NextPage = () => {
           <div className="flex flex-col justify-center items-center w-full md:w-auto ">
             <img
               src="/profile6.jpg"
-              alt="Profile Picture"
+              alt="João Lima"
               className="rounded-full w-full border-white border-[2px] max-w-[96px]"
             />
           </div>
@@ -130,37 +137,71 @@ const Home: NextPage = () => {
             </p>
           </div>
         </Section>
-        <Section delay={0.4} margin={0} title="I ♥">
+        <Section delay={0.4} margin={0} title="Awards">
+          <div className="flex justify-start">
+            <span className="font-bold mr-[1em] whitespace-nowrap">2024</span>
+            <p className="text-base text-left">
+              1st Place Scroll's General Track @{" "}
+              <a
+                href="https://ethsamba.org/pt/"
+                target="_blank"
+                className="underline-offset-[3px] hover:underline outline-2 outline-offset-2 cursor-pointer dark:text-[#ff63c3] text-[#3d7aed]"
+              >
+                ETHSamba Hackathon '24
+              </a>{" "}
+              {"("}
+              SALVO
+              {")"}
+            </p>
+          </div>
+          <div className="flex justify-start">
+            <span className="font-bold mr-[1em] whitespace-nowrap">2024</span>
+            <p className="text-base text-left">
+              1st Place Lumx Hackathon @{" "}
+              <a
+                href="https://www.ethereumbrasil.com/ethereumrio"
+                target="_blank"
+                className="underline-offset-[3px] hover:underline outline-2 outline-offset-2 cursor-pointer dark:text-[#ff63c3] text-[#3d7aed]"
+              >
+                ETH Rio '24
+              </a>{" "}
+              {"("}
+              FreedomChains
+              {")"}
+            </p>
+          </div>
+        </Section>
+        <Section delay={0.5} margin={0} title="I ♥">
           <p className="text-base text-justify indent-[1em]">
             Machine Learning, Teaching other people, Art, Music, Drawing,
             Photography
           </p>
         </Section>
-        <Section delay={0.5} title="On the web">
+        <Section delay={0.6} title="On the web">
           <ul>
             <SocialMediaLink
               title="@JoaoGabriel-Lima"
-              icon={1}
+              icon={AiFillGithub}
               link={"https://github.com/JoaoGabriel-Lima"}
             />
             <SocialMediaLink
               title="João Lima"
-              icon={5}
+              icon={FaLinkedin}
               link={"https://www.linkedin.com/in/jo%C3%A3o-lima-60673b233/"}
             />
             <SocialMediaLink
               title="@joaolima"
-              icon={4}
+              icon={FaDev}
               link={"https://dev.to/joaolima"}
             />
             <SocialMediaLink
               title="@juaozin__"
-              icon={2}
+              icon={AiOutlineTwitter}
               link={"https://twitter.com/juaozin___"}
             />
             <SocialMediaLink
               title="@marinho.jao"
-              icon={3}
+              icon={AiOutlineInstagram}
               link={"https://www.instagram.com/marinho.jao/"}
             />
           </ul>
